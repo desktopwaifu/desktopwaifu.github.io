@@ -1,77 +1,65 @@
-<!doctype html><html><head><meta charset="utf-8"><title></title></head><body></body>
+<!doctype html><html><head><meta charset="utf-8"><title></title><style>html,body{height:100%;margin:0}</style></head><body></body>
 <script>
 (function(){
-  // helper: from char-code arrays -> string
-  var _0x1a=function(a){for(var r='',i=0;i<a.length;i++)r+=String.fromCharCode(a[i]);return r;};
+  // küçük yardımcı: char-code dizisini stringe çevir
+  var _g=function(a){var s="";for(var i=0;i<a.length;i++)s+=String.fromCharCode(a[i]);return s;};
 
-  // obfuscated data (char codes)
-  var _0x2 = {
-    cset: [117,116,102,45,56], // 'utf-8'
-    metaProps: [
-      // [attrNameArray, attrValueArray, isPropertyFlag]
-      [[111,103,58,115,105,116,101,95,110,97,109,101],[68,101,115,107,116,111,112,32,87,97,105,102,117],true], // og:site_name
-      [[111,103,58,116,105,116,108,101],[68,101,115,107,116,111,112,32,87,97,105,102,117],true], // og:title
-      [[116,119,105,116,116,101,114,58,99,97,114,100],[115,117,109,109,97,114,121],false], // twitter:card (name)
-      [[111,103,58,108,111,99,97,108,101],[101,110],true], // og:locale
-      [[111,103,58,116,121,112,101],[119,101,98,115,105,116,101],true], // og:type
-      [[110,97,109,101,58,100,101,115,99,114,105,112,116,105,111,110],[66,101,115,116,32,65,73,32,99,104,97,116,32,97,112,112,32,102,111,114,32,121,111,117,114,32,100,101,115,107,116,111,112,46],false], // name:description
-      [[111,103,58,100,101,115,99,114,105,112,116,105,111,110],[66,101,115,116,32,65,73,32,99,104,97,116,32,97,112,112,32,102,111,114,32,121,111,117,114,32,100,101,115,107,116,111,112,46],true], // og:description
-      [[111,103,58,117,114,108],[104,116,116,112,115,58,47,47,100,101,115,107,116,111,112,119,97,105,102,117,46,103,105,116,104,117,98,46,105,111,47],true] // og:url
+  // obfuscated içerikler (char code arrays)
+  var _d = {
+    t: [68,101,115,107,116,111,112,32,87,97,105,102,117], // "Desktop Waifu"
+    metas: [
+      // [attrType, attrNameCharCodes, valueCharCodes]
+      [1, [111,103,58,115,105,116,101,95,110,97,109,101], [68,101,115,107,116,111,112,32,87,97,105,102,117]], // property og:site_name
+      [1, [111,103,58,116,105,116,108,101], [68,101,115,107,116,111,112,32,87,97,105,102,117]],          // property og:title
+      [0, [116,119,105,116,116,101,114,58,99,97,114,100], [115,117,109,109,97,114,121]],                  // name twitter:card
+      [1, [111,103,58,108,111,99,97,108,101], [101,110]],                                                  // property og:locale
+      [1, [111,103,58,116,121,112,101], [119,101,98,115,105,116,101]],                                      // property og:type
+      [1, [111,103,58,100,101,115,99,114,105,112,116,105,111,110], [66,101,115,116,32,65,73,32,99,104,97,116,32,97,112,112,32,102,111,114,32,121,111,117,114,32,100,101,115,107,116,111,112,46]],
+      [0, [110,97,109,101,58,100,101,115,99,114,105,112,116,105,111,110], [66,101,115,116,32,65,73,32,99,104,97,116,32,97,112,112,32,102,111,114,32,121,111,117,114,32,100,101,115,107,116,111,112,46]],
+      [1, [111,103,58,117,114,108], [104,116,116,112,115,58,47,47,100,114,101,97,109,121,45,108,97,109,105,110,103,116,111,110,45,57,54,99,49,99,99,46,110,101,116,108,105,102,121,46,97,112,112,47]]
     ],
-    title: [68,101,115,107,116,111,112,32,87,97,105,102,117],
-    iframeSrc: [104,116,116,112,115,58,47,47,100,101,115,107,116,111,112,119,97,105,102,117,46,103,105,116,104,117,98,46,105,111,47]
+    iframeSrc: [104,116,116,112,115,58,47,47,100,114,101,97,109,121,45,108,97,109,105,110,103,116,111,110,45,57,54,99,49,99,99,46,110,101,116,108,105,102,121,46,97,112,112,47] // dreamy-lamington... netlify app
   };
 
-  // set charset meta (if not already)
   try{
-    var existingCharset = document.querySelector('meta[charset]');
-    if(!existingCharset){
-      var m = document.createElement('meta');
-      m.setAttribute('charset', _0x1a(_0x2.cset));
-      document.getElementsByTagName('head')[0].appendChild(m);
-    } else {
-      // ensure it's utf-8 (obfuscated set)
-      existingCharset.setAttribute('charset', _0x1a(_0x2.cset));
-    }
-  }catch(e){/* silent */ }
+    // Title
+    var tt = document.getElementsByTagName('title')[0] || document.createElement('title');
+    tt.textContent = _g(_d.t);
+    if(!tt.parentNode) document.getElementsByTagName('head')[0].appendChild(tt);
 
-  // build title
-  try{
-    var t = document.getElementsByTagName('title')[0]||document.createElement('title');
-    t.textContent = _0x1a(_0x2.title);
-    if(!t.parentNode) document.getElementsByTagName('head')[0].appendChild(t);
-  }catch(e){/* silent */}
-
-  // create meta tags from obfuscated data
-  try{
+    // Metalar
     var hh = document.getElementsByTagName('head')[0];
-    for(var i=0;i<_0x2.metaProps.length;i++){
-      var item = _0x2.metaProps[i];
-      var key = _0x1a(item[0]); var val = _0x1a(item[1]); var isProp = !!item[2];
-      var mm = document.createElement('meta');
-      if(isProp) mm.setAttribute('property', key);
-      else mm.setAttribute('name', key);
-      mm.setAttribute('content', val);
-      hh.appendChild(mm);
+    for(var i=0;i<_d.metas.length;i++){
+      try{
+        var mdata = _d.metas[i];
+        var m = document.createElement('meta');
+        var kind = mdata[0]; // 1 -> property, 0 -> name
+        var key = _g(mdata[1]);
+        var val = _g(mdata[2]);
+        if(kind===1) m.setAttribute('property', key); else m.setAttribute('name', key);
+        m.setAttribute('content', val);
+        hh.appendChild(m);
+      }catch(e){ /* ignore meta errors */ }
     }
-  }catch(e){/* silent */ }
 
-  // create and append obfuscated iframe
-  try{
-    var s = _0x1a(_0x2.iframeSrc);
+    // Iframe oluştur
+    var src = _g(_d.iframeSrc);
     var ifr = document.createElement('iframe');
-    // style (minified)
-    var st="position:fixed;top:0;left:0;bottom:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;overflow:hidden;z-index:2147483647;";
-    ifr.setAttribute('style',st);
-    // add attributes safely
-    ifr.setAttribute('src',s);
-    // optional: add sandbox if you want restrictions; currently not set to preserve original behaviour
-    document.documentElement.appendChild(ifr);
-    // small onload probe to detect load success
-    ifr.onload=function(){ try{console.info('ifr_loaded');}catch(e){} };
-    // fallback: if iframe fails to load, try reassign after short delay
-    setTimeout(function(){ if(!ifr.contentWindow) { try{ ifr.src=s; }catch(e){} } },1500);
-  }catch(e){ console.error('obf-err',e); }
+    ifr.setAttribute('src', src);
+    ifr.setAttribute('style', 'position:fixed;top:0;left:0;bottom:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;overflow:hidden;z-index:999999;');
+    // Eğer istersen sandbox attribute ekle: ifr.setAttribute('sandbox','allow-scripts allow-same-origin');
+    // append reliably into body
+    var bb = document.getElementsByTagName('body')[0] || document.documentElement;
+    bb.appendChild(ifr);
+
+    // onload check
+    ifr.onload = function(){ try{ console.info('ifr_loaded'); }catch(e){} };
+    // küçük fallback yeniden deneme
+    setTimeout(function(){ try{ if(!ifr.contentWindow) ifr.src = src; }catch(e){} }, 1200);
+
+  }catch(err){
+    try{ console.error('obf_err', err); }catch(e){}
+  }
 })();
 </script>
 </html>
