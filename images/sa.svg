@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="226" height="64" viewBox="0 0 226 64" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="400%" height="400%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="a7a68a67-eb1f-4d32-862a-b17b30bdf31c"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="a73c980c-c730-4d16-b218-50ab7021037b"  >
+</g>
+<g transform="matrix(NaN NaN NaN NaN 0 0)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 -90.9 0)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-21.57145" y="-32" rx="0" ry="0" width="43.1429" height="64" />
+</g>
+		<g transform="matrix(1 0 0 1 38.66 -0.48)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-151.13, -31.52)" d="M 83.424 26 L 83.424 17.584 L 93.344 17.584 L 93.344 12.784 L 83.424 12.784 L 83.424 9.456 L 93.568 9.456 L 93.568 4.656 L 77.92 4.656 L 77.92 26 L 83.424 26 Z M 113.793 26 L 113.793 21.2 L 103.649 21.2 L 103.649 17.584 L 113.569 17.584 L 113.569 12.784 L 103.649 12.784 L 103.649 9.456 L 113.793 9.456 L 113.793 4.656 L 98.145 4.656 L 98.145 26 L 113.793 26 Z M 139.325 26 L 131.261 4.656 L 124.349 4.656 L 116.317 26 L 122.557 26 L 123.613 22.928 L 132.029 22.928 L 133.085 26 L 139.325 26 Z M 130.525 18.128 L 125.085 18.128 L 127.805 10.096 L 130.525 18.128 Z M 150.804 26 L 150.804 9.456 L 156.757 9.456 L 156.757 4.656 L 139.316 4.656 L 139.316 9.456 L 145.3 9.456 L 145.3 26 L 150.804 26 Z M 180.848 26 L 180.848 4.656 L 175.344 4.656 L 175.344 12.624 L 166.48 12.624 L 166.48 4.656 L 160.976 4.656 L 160.976 26 L 166.48 26 L 166.48 17.424 L 175.344 17.424 L 175.344 26 L 180.848 26 Z M 201.943 26 L 201.943 21.2 L 191.799 21.2 L 191.799 17.584 L 201.719 17.584 L 201.719 12.784 L 191.799 12.784 L 191.799 9.456 L 201.943 9.456 L 201.943 4.656 L 186.295 4.656 L 186.295 26 L 201.943 26 Z M 224.947 26 L 220.595 18.16 C 222.579 17.456 224.851 15.472 224.851 11.76 C 224.851 7.792 222.163 4.656 217.427 4.656 L 206.739 4.656 L 206.739 26 L 212.243 26 L 212.243 18.832 L 215.059 18.832 L 218.643 26 L 224.947 26 Z M 216.595 14.032 L 212.243 14.032 L 212.243 9.456 L 216.595 9.456 C 218.035 9.456 219.251 10.288 219.251 11.728 C 219.251 13.232 218.035 14.032 216.595 14.032 Z M 88.512 58.384 C 92.832 58.384 95.456 56.144 97.088 53.584 L 93.888 51.952 C 92.864 53.744 90.816 55.056 88.512 55.056 C 84.288 55.056 81.152 51.824 81.152 47.344 C 81.152 42.864 84.288 39.632 88.512 39.632 C 90.816 39.632 92.864 40.976 93.888 42.736 L 97.088 41.104 C 95.488 38.544 92.832 36.304 88.512 36.304 C 82.208 36.304 77.312 40.784 77.312 47.344 C 77.312 53.904 82.208 58.384 88.512 58.384 Z M 114.837 58 L 114.837 54.704 L 105.429 54.704 L 105.429 36.656 L 101.685 36.656 L 101.685 58 L 114.837 58 Z M 123.56 58 L 123.56 36.656 L 119.816 36.656 L 119.816 58 L 123.56 58 Z M 144.321 58 L 144.321 54.704 L 133.441 54.704 L 133.441 48.784 L 144.097 48.784 L 144.097 45.488 L 133.441 45.488 L 133.441 39.952 L 144.321 39.952 L 144.321 36.656 L 129.697 36.656 L 129.697 58 L 144.321 58 Z M 168.262 58 L 168.262 36.656 L 164.518 36.656 L 164.518 51.472 L 153.606 36.656 L 149.766 36.656 L 149.766 58 L 153.51 58 L 153.51 42.768 L 164.646 58 L 168.262 58 Z M 183.229 58 L 183.229 39.952 L 189.693 39.952 L 189.693 36.656 L 173.021 36.656 L 173.021 39.952 L 179.485 39.952 L 179.485 58 L 183.229 58 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 540.5 599.83)" style="" id="1a1d1d67-5e5c-4e68-9e46-42461603265a"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="105" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-214.52" y="-26.34" >Desktop</tspan><tspan x="-153.25" y="92.31" >Waifu</tspan></text>
+</g>
+</svg>
